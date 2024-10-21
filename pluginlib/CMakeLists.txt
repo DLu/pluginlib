@@ -45,6 +45,8 @@ install(
 
 install(DIRECTORY include/ DESTINATION include/${PROJECT_NAME})
 
+ament_python_install_package(${PROJECT_NAME})
+
 if(BUILD_TESTING)
   find_package(ament_cmake_gtest REQUIRED)
 
