@@ -674,7 +674,7 @@ void ClassLoader<T>::processSingleXMLPluginFile(
     std::string library_path(path);
     if (0 == library_path.size()) {
       RCUTILS_LOG_ERROR_NAMED("pluginlib.ClassLoader",
-        "Failed to find Path Attirbute in library element in %s", xml_file.c_str());
+        "Failed to find Path Attribute in library element in %s", xml_file.c_str());
       continue;
     }
 

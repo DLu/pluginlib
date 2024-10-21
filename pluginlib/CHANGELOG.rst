@@ -149,7 +149,7 @@ Changelog for package pluginlib
 * remove extra semicolon to fix pedantic warning (`#103 <https://github.com/ros/pluginlib/issues/103>`_)
 * use new class_loader header names (`#99 <https://github.com/ros/pluginlib/issues/99>`_)
 * adjust library search to work on windows, warn about lib prefix (`#97 <https://github.com/ros/pluginlib/issues/97>`_)
-* vs2015 doesnt support __has_include, VS2015 and 2017 have both <files… (`#96 <https://github.com/ros/pluginlib/issues/96>`_)
+* vs2015 doesn't support __has_include, VS2015 and 2017 have both <files… (`#96 <https://github.com/ros/pluginlib/issues/96>`_)
 * move pluginlib in its own folder (port 83 to ros2 branch) (`#95 <https://github.com/ros/pluginlib/issues/95>`_)
 * Contributors: Mikael Arguedas, William Woodall, jerry73204
 
@@ -416,7 +416,7 @@ Changelog for package pluginlib
 * fixed tinyxml
 * converting to unary stack (separated from common)
 * applied patch from 4923, to support boost 1.46
-* patch from Nick Butko osx compatability
+* patch from Nick Butko osx compatibility
 * adding unittest melonee forgot to commit
 * adding pluginlib tests
 * patch for osx linking `#4094 <https://github.com/ros/pluginlib/issues/4094>`_
@@ -431,7 +431,7 @@ Changelog for package pluginlib
 * adding warning about deprecated macro PLUGINLIB_REGISTER_CLASS
 * pluginlib now takes pkg/type arguments, new macro PLUGINLIB_DECLARE_CLASS
 * pluginlib now robust to malformed manifests
-* Adding more descriptive error messages when libaries fail to load
+* Adding more descriptive error messages when libraries fail to load
 * Remove use of deprecated rosbuild macros
 * doc review completed http://www.ros.org/wiki/pluginlib/Reviews/2009-10-06_Doc_Review
 * fixing documentation link

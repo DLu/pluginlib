@@ -19,7 +19,7 @@ set(PLUGINLIB_ENABLE_PLUGIN_TESTING_DIR "${CMAKE_CURRENT_LIST_DIR}")
 # Enable testing plugins by mock-installing needed files to the build folder.
 #
 # Pluginlib needs a certain folder structure in the ament_index to recognize
-# the existance of a package and its exported plugins.
+# the existence of a package and its exported plugins.
 # This structure must exist at test time in order for unit tests to load
 # plugins.
 # The macro `pluginlib_export_plugin_description_file()` sets up this structure
@@ -143,7 +143,7 @@ function(pluginlib_enable_plugin_testing)
   list(APPEND input_content "")
   list(APPEND output_files "${fake_install_dir}/package.xml")
 
-  # Add blank file indicating existance of package in the ament index
+  # Add blank file indicating existence of package in the ament index
   list(APPEND input_files "")
   list(APPEND input_content "")
   list(APPEND output_files "${prefix}/share/ament_index/resource_index/packages/${ARG_PACKAGE_NAME}")
